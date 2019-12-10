@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LevelOrder {
+public class PrintFromTopToBottom {
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         ArrayList<Integer> arr = new ArrayList<>();
